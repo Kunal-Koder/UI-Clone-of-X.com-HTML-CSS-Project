@@ -1,0 +1,58 @@
+.S_Bar{
+    position: sticky;
+    top:0px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    z-index: 200;
+}
+.S_Bar div{
+    border: none;
+}
+
+
+.side_bar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 400px;
+    background-color: lightcoral;
+}
+
+.SBar{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    position: relative;
+    background-color: rgb(0, 0, 0) ;
+    height: 60px;
+    
+}
+.SBar i{
+    position: absolute;
+    top:17px;
+    left: 8px;
+    color: grey;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.S_in{
+    margin-top: 4px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    height: 48px;
+    vertical-align: middle;
+    align-items: center;
+    outline-color:rgb(29, 156, 240); 
+    color: white;
+    font-size: 14px;
+    background-color:rgba(0, 0, 0, 0);
+    padding-left: 25px;
+    flex: 1;
+}
+
+.SBar input::placeholder{
+    color: white;
+}
